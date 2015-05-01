@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  	<servlet-name>AddWorkerServlet</servlet-name>
+  	<servlet-class>com.worker.web.AddWorkerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryWorkerServlet</servlet-name>
+    <servlet-class>com.worker.web.QueryWorkerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteWorkerServlet</servlet-name>
+    <servlet-class>com.worker.web.DeleteWorkerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryWorkerByIdServlet</servlet-name>
+    <servlet-class>com.worker.web.QueryWorkerByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateWorkerServlet</servlet-name>
+    <servlet-class>com.worker.web.UpdateWorkerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindWorkerServlet</servlet-name>
+    <servlet-class>com.worker.web.FindWorkerServlet</servlet-class>
+  </servlet>
+    <servlet>
+  	<servlet-name>AddWorkshopServlet</servlet-name>
+  	<servlet-class>com.workshop.web.AddWorkshopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryWorkshopServlet</servlet-name>
+    <servlet-class>com.workshop.web.QueryWorkshopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteWorkshopServlet</servlet-name>
+    <servlet-class>com.workshop.web.DeleteWorkshopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryWorkshopByIdServlet</servlet-name>
+    <servlet-class>com.workshop.web.QueryWorkshopByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateWorkshopServlet</servlet-name>
+    <servlet-class>com.workshop.web.UpdateWorkshopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindWorkshopServlet</servlet-name>
+    <servlet-class>com.workshop.web.FindWorkshopServlet</servlet-class>
+  </servlet>
+      <servlet>
+  	<servlet-name>AddManufacturerServlet</servlet-name>
+  	<servlet-class>com.manufacturer.web.AddManufacturerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryManufacturerServlet</servlet-name>
+    <servlet-class>com.manufacturer.web.QueryManufacturerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteManufacturerServlet</servlet-name>
+    <servlet-class>com.manufacturer.web.DeleteManufacturerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryManufacturerByIdServlet</servlet-name>
+    <servlet-class>com.manufacturer.web.QueryManufacturerByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateManufacturerServlet</servlet-name>
+    <servlet-class>com.manufacturer.web.UpdateManufacturerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindManufacturerServlet</servlet-name>
+    <servlet-class>com.manufacturer.web.FindManufacturerServlet</servlet-class>
+  </servlet>
+        <servlet>
+  	<servlet-name>AddMachineServlet</servlet-name>
+  	<servlet-class>com.machine.web.AddMachineServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryMachineServlet</servlet-name>
+    <servlet-class>com.machine.web.QueryMachineServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteMachineServlet</servlet-name>
+    <servlet-class>com.machine.web.DeleteMachineServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryMachineByIdServlet</servlet-name>
+    <servlet-class>com.machine.web.QueryMachineByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateMachineServlet</servlet-name>
+    <servlet-class>com.machine.web.UpdateMachineServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindMachineServlet</servlet-name>
+    <servlet-class>com.machine.web.FindMachineServlet</servlet-class>
+  </servlet>
+          <servlet>
+  	<servlet-name>AddDynamicWorkshopServlet</servlet-name>
+  	<servlet-class>com.dynamic_workshop.web.AddDynamicWorkshopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryDynamicWorkshopServlet</servlet-name>
+    <servlet-class>com.dynamic_workshop.web.QueryDynamicWorkshopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteDynamicWorkshopServlet</servlet-name>
+    <servlet-class>com.dynamic_workshop.web.DeleteDynamicWorkshopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryDynamicWorkshopByIdServlet</servlet-name>
+    <servlet-class>com.dynamic_workshop.web.QueryDynamicWorkshopByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateDynamicWorkshopServlet</servlet-name>
+    <servlet-class>com.dynamic_workshop.web.UpdateDynamicWorkshopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindDynamicWorkshopServlet</servlet-name>
+    <servlet-class>com.dynamic_workshop.web.FindDynamicWorkshopServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>AddActiveMachineServlet</servlet-name>
+  	<servlet-class>com.active_machine.web.AddActiveMachineServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryActiveMachineServlet</servlet-name>
+    <servlet-class>com.active_machine.web.QueryActiveMachineServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteActiveMachineServlet</servlet-name>
+    <servlet-class>com.active_machine.web.DeleteActiveMachineServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryActiveMachineByIdServlet</servlet-name>
+    <servlet-class>com.active_machine.web.QueryActiveMachineByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateActiveMachineServlet</servlet-name>
+    <servlet-class>com.active_machine.web.UpdateActiveMachineServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindActiveMachineServlet</servlet-name>
+    <servlet-class>com.active_machine.web.FindActiveMachineServlet</servlet-class>
+  </servlet>
+              <servlet>
+  	<servlet-name>AddProfessionServlet</servlet-name>
+  	<servlet-class>com.profession.web.AddProfessionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryProfessionServlet</servlet-name>
+    <servlet-class>com.profession.web.QueryProfessionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteProfessionServlet</servlet-name>
+    <servlet-class>com.profession.web.DeleteProfessionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryProfessionByIdServlet</servlet-name>
+    <servlet-class>com.profession.web.QueryProfessionByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateProfessionServlet</servlet-name>
+    <servlet-class>com.profession.web.UpdateProfessionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindProfessionServlet</servlet-name>
+    <servlet-class>com.profession.web.FindProfessionServlet</servlet-class>
+  </servlet>
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageFindWorkerServlet</servlet-name>
+    <servlet-class>com.message.MessageFindWorkerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageFindWorkshopServlet</servlet-name>
+    <servlet-class>com.message.MessageFindWorkshopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageFindManufacturerServlet</servlet-name>
+    <servlet-class>com.message.MessageFindManufacturerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageFindMachineServlet</servlet-name>
+    <servlet-class>com.message.MessageFindMachineServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageFindDynamicWorkshopServlet</servlet-name>
+    <servlet-class>com.message.MessageFindDynamicWorkshopServlet</servlet-class>
+  </servlet>
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageFindActiveMachineServlet</servlet-name>
+    <servlet-class>com.message.MessageFindActiveMachineServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageFindMachineConditionServlet</servlet-name>
+    <servlet-class>com.message.MessageFindMachineConditionServlet</servlet-class>
+  </servlet>
+  
+  
+  
+    <servlet>
+  	<servlet-name>AddMachineConditionServlet</servlet-name>
+  	<servlet-class>com.machine_condition.web.AddMachineConditionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryMachineConditionServlet</servlet-name>
+    <servlet-class>com.machine_condition.web.QueryMachineConditionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteMachineConditionServlet</servlet-name>
+    <servlet-class>com.machine_condition.web.DeleteMachineConditionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryMachineConditionByIdServlet</servlet-name>
+    <servlet-class>com.machine_condition.web.QueryMachineConditionByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateMachineConditionServlet</servlet-name>
+    <servlet-class>com.machine_condition.web.UpdateMachineConditionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindMachineConditionServlet</servlet-name>
+    <servlet-class>com.machine_condition.web.FindMachineConditionServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+  	<servlet-name>AddWorkerServlet</servlet-name>
+  	<url-pattern>/addWorkerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryWorkerServlet</servlet-name>
+    <url-pattern>/queryWorkerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteWorkerServlet</servlet-name>
+    <url-pattern>/deleteWorkerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryWorkerByIdServlet</servlet-name>
+    <url-pattern>/queryWorkerByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateWorkerServlet</servlet-name>
+    <url-pattern>/updateWorkerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindWorkerServlet</servlet-name>
+    <url-pattern>/FindWorkerServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+  	<servlet-name>AddManufacturerServlet</servlet-name>
+  	<url-pattern>/addManufacturerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryManufacturerServlet</servlet-name>
+    <url-pattern>/queryManufacturerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteManufacturerServlet</servlet-name>
+    <url-pattern>/deleteManufacturerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryManufacturerByIdServlet</servlet-name>
+    <url-pattern>/queryManufacturerByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateManufacturerServlet</servlet-name>
+    <url-pattern>/updateManufacturerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindManufacturerServlet</servlet-name>
+    <url-pattern>/FindManufacturerServlet</url-pattern>
+  </servlet-mapping>
+      <servlet-mapping>
+  	<servlet-name>AddWorkshopServlet</servlet-name>
+  	<url-pattern>/addWorkshopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryWorkshopServlet</servlet-name>
+    <url-pattern>/queryWorkshopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteWorkshopServlet</servlet-name>
+    <url-pattern>/deleteWorkshopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryWorkshopByIdServlet</servlet-name>
+    <url-pattern>/queryWorkshopByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateWorkshopServlet</servlet-name>
+    <url-pattern>/updateWorkshopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindWorkshopServlet</servlet-name>
+    <url-pattern>/FindWorkshopServlet</url-pattern>
+  </servlet-mapping>
+        <servlet-mapping>
+  	<servlet-name>AddMachineServlet</servlet-name>
+  	<url-pattern>/addMachineServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryMachineServlet</servlet-name>
+    <url-pattern>/queryMachineServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteMachineServlet</servlet-name>
+    <url-pattern>/deleteMachineServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryMachineByIdServlet</servlet-name>
+    <url-pattern>/queryMachineByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateMachineServlet</servlet-name>
+    <url-pattern>/updateMachineServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindMachineServlet</servlet-name>
+    <url-pattern>/FindMachineServlet</url-pattern>
+  </servlet-mapping>
+          <servlet-mapping>
+  	<servlet-name>AddDynamicWorkshopServlet</servlet-name>
+  	<url-pattern>/addDynamicWorkshopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryDynamicWorkshopServlet</servlet-name>
+    <url-pattern>/queryDynamicWorkshopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteDynamicWorkshopServlet</servlet-name>
+    <url-pattern>/deleteDynamicWorkshopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryDynamicWorkshopByIdServlet</servlet-name>
+    <url-pattern>/queryDynamicWorkshopByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateDynamicWorkshopServlet</servlet-name>
+    <url-pattern>/updateDynamicWorkshopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindDynamicWorkshopServlet</servlet-name>
+    <url-pattern>/FindDynamicWorkshopServlet</url-pattern>
+  </servlet-mapping>
+            <servlet-mapping>
+  	<servlet-name>AddActiveMachineServlet</servlet-name>
+  	<url-pattern>/addActiveMachineServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryActiveMachineServlet</servlet-name>
+    <url-pattern>/queryActiveMachineServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteActiveMachineServlet</servlet-name>
+    <url-pattern>/deleteActiveMachineServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryActiveMachineByIdServlet</servlet-name>
+    <url-pattern>/queryActiveMachineByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateActiveMachineServlet</servlet-name>
+    <url-pattern>/updateActiveMachineServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindActiveMachineServlet</servlet-name>
+    <url-pattern>/FindActiveMachineServlet</url-pattern>
+  </servlet-mapping>
+              <servlet-mapping>
+  	<servlet-name>AddProfessionServlet</servlet-name>
+  	<url-pattern>/addProfessionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryProfessionServlet</servlet-name>
+    <url-pattern>/queryProfessionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteProfessionServlet</servlet-name>
+    <url-pattern>/deleteProfessionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryProfessionByIdServlet</servlet-name>
+    <url-pattern>/queryProfessionByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateProfessionServlet</servlet-name>
+    <url-pattern>/updateProfessionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindProfessionServlet</servlet-name>
+    <url-pattern>/FindProfessionServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>MessageFindWorkerServlet</servlet-name>
+    <url-pattern>/MessageFindWorkerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageFindWorkshopServlet</servlet-name>
+    <url-pattern>/MessageFindWorkshopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageFindManufacturerServlet</servlet-name>
+    <url-pattern>/MessageFindManufacturerServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>MessageFindMachineServlet</servlet-name>
+    <url-pattern>/MessageFindMachineServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageFindDynamicWorkshopServlet</servlet-name>
+    <url-pattern>/MessageFindDynamicWorkshopServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>MessageFindActiveMachineServlet</servlet-name>
+    <url-pattern>/MessageFindActiveMachineServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageFindMachineConditionServlet</servlet-name>
+    <url-pattern>/MessageFindMachineConditionServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet-mapping>
+  	<servlet-name>AddMachineConditionServlet</servlet-name>
+  	<url-pattern>/addMachineConditionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryMachineConditionServlet</servlet-name>
+    <url-pattern>/queryMachineConditionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteMachineConditionServlet</servlet-name>
+    <url-pattern>/deleteMachineConditionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryMachineConditionByIdServlet</servlet-name>
+    <url-pattern>/queryMachineConditionByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateMachineConditionServlet</servlet-name>
+    <url-pattern>/updateMachineConditionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindMachineConditionServlet</servlet-name>
+    <url-pattern>/FindMachineConditionServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  <servlet>
+  	<servlet-name>GetActiveMachineHistoryDataServlet</servlet-name>
+	<servlet-class>com.historyData.web.GetActiveMachineHistoryDataServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>GetActiveMachineHistoryDataServlet</servlet-name>
+	<url-pattern>/GetActiveMachineHistoryDataServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>GetDynamicWorkshopHistoryDataServlet</servlet-name>
+	<servlet-class>com.historyData.web.GetDynamicWorkshopHistoryDataServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>GetDynamicWorkshopHistoryDataServlet</servlet-name>
+	<url-pattern>/GetDynamicWorkshopHistoryDataServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+    <servlet>
+  	<servlet-name>addAMData</servlet-name>
+	<servlet-class>com.test.addData.AddActiveMachineDataServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>addAMData</servlet-name>
+	<url-pattern>/addAMData</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>addDWData</servlet-name>
+	<servlet-class>com.test.addData.AddDynamicWorkshopDataServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+	<servlet-name>addDWData</servlet-name>
+	<url-pattern>/addDWData</url-pattern>
+  </servlet-mapping>
+  
+
+  
+  
+</web-app>
